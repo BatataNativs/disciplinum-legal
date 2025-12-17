@@ -50,4 +50,4 @@ Alguns dos serviços utilizados (como servidores do Google e Supabase) podem est
 
 ## 7. Contato
 Para dúvidas sobre esta política ou gestão de dados:
-**E-mail:** [INSERIR SEU EMAIL AQUI]
+**E-mail:** disciplinum.app@gmail.com
