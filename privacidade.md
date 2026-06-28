@@ -20,20 +20,21 @@ Coletamos **apenas os dados necessários** para o funcionamento do aplicativo e 
 
 *A foto de perfil é opcional e pode ser adicionada via upload ou sincronizada do Google (se usar login com Google).*
 
-> ⚠️ **Não coletamos:**
+> ⚠️ **Não coletamos diretamente:**
 > - Dados de localização GPS
 > - Número de telefone
-> - Informações de pagamento (o app é gratuito)
+> - **Informações de pagamento** (as compras no aplicativo são processadas pelo **Google Play Billing**)
 
 ---
 
 ## 🔄 2. Compartilhamento com Terceiros
-**Não vendemos seus dados pessoais.** Compartilhamos dados **apenas com serviços essenciais** para a infraestrutura e monetização do aplicativo.
+**Não vendemos seus dados pessoais.** Compartilhamos dados **apenas com serviços essenciais** para a infraestrutura, monetização e processamento de pagamentos do aplicativo.
  | **Serviço** | **Dados Compartilhados** | **Finalidade** | **Política de Privacidade** |
  |-------------|------------------------|---------------|-----------------------------|
  | **Supabase** (Banco de Dados e Auth) | E-mail, hábitos, progresso, configurações, **fotos de perfil** | Armazenamento seguro e autenticação | [supabase.com/privacy](https://supabase.com/privacy) |
  | **Google AdMob** | ID de Publicidade (AdID) | Exibição de anúncios **apenas com consentimento** | [policies.google.com/privacy](https://policies.google.com/privacy) |
  | **Firebase Crashlytics** | Logs de erros (anônimos) | Monitoramento de falhas e estabilidade | [firebase.google.com/support/privacy](https://firebase.google.com/support/privacy) |
+ | **Google Play Billing** | Dados de transação (sem informações de cartão) | Processamento de compras no aplicativo | [payments.google.com](https://payments.google.com) |
 
 > 🔹 **Google Play Console:** Declaração de dados preenchida conforme [Política de Privacidade do Google Play](https://play.google.com/console/u/0/developers/policy).
 
@@ -81,7 +82,7 @@ Adotamos as seguintes medidas para proteger seus dados:
 
 ---
 ## 🌍 6. Transferência Internacional
-Alguns serviços utilizados (Supabase, Google AdMob, Firebase) têm servidores **localizados fora do Brasil** (ex: EUA, Europa).
+Alguns serviços utilizados (Supabase, Google AdMob, Firebase, Google Play Billing) têm servidores **localizados fora do Brasil** (ex: EUA, Europa).
 
 - Ao usar o app, você **consente** com essa transferência.
 - Garantimos que nossos parceiros **seguem padrões adequados de segurança** (ex: GDPR, CCPA).
@@ -101,14 +102,25 @@ O Disciplinum exibe **anúncios do Google AdMob** para sustentar seu desenvolvim
 > 💡 **Nota:** Optar por anúncios não personalizados **não remove os anúncios**, apenas os torna menos relevantes.
 
 ---
-## 👶 8. Uso por Menores
+## 💳 8. Compras no Aplicativo (In-App Purchases)
+O Disciplinum é **gratuito**, mas pode oferecer **funcionalidades extras, premium ou exclusivas** mediante compra no aplicativo.
+
+- **Processamento de pagamentos:** Todas as compras são processadas pelo **Google Play Billing** (Google).
+- **Dados de pagamento:** **Não temos acesso** a informações de cartão de crédito ou outros dados financeiros. Esses dados são gerenciados **exclusivamente pelo Google**.
+- **Política de reembolso:** Reembolsos estão sujeitos à [Política de Reembolso do Google Play](https://support.google.com/googleplay/workflow/13426663).
+- **Cancelamento de assinaturas:** Assinaturas podem ser canceladas nas configurações da Google Play Store.
+
+> ⚠️ **Importante:** Compras no aplicativo são **não reembolsáveis**, exceto conforme exigido por lei.
+
+---
+## 👶 9. Uso por Menores
 - O aplicativo é **destinado a usuários com 13 anos ou mais**.
 - **Menores de 18 anos** devem ter o consentimento dos responsáveis legais.
 - **Não coletamos dados de menores de 13 anos intencionalmente.**
 - Se tomarmos ciência de coleta acidental, **excluiremos os dados imediatamente**.
 
 ---
-## 📞 9. Contato
+## 📞 10. Contato
 Para dúvidas sobre esta política ou gestão de dados:
 
 - **E-mail:** [disciplinum.app@gmail.com](mailto:disciplinum.app@gmail.com)
