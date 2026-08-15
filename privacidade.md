@@ -17,6 +17,7 @@ Coletamos **apenas os dados necessários** para o funcionamento do aplicativo e 
  | **Identificadores de Dispositivo** | ID de Publicidade (AdID), Modelo do aparelho, Versão do Android | Exibição de anúncios (apenas com consentimento explícito) | **Consentimento (Art. 7º, I)** |
  | **Logs de Falhas** | Relatórios de erros (via Firebase Crashlytics) | Correção de bugs e estabilidade do app | Legítimo Interesse (Art. 7º, IX) |
  | **Dados de Sincronização** | Configurações do app, progresso dos hábitos | Sincronização entre dispositivos | Execução de Contrato (Art. 7º, V) |
+   **Dados de Análise** | Eventos de uso (telas acessadas, interações), relatórios de erros | Melhoria do app e correção de bugs | **Consentimento (Art. 7º, I)** ou Legítimo Interesse (Art. 7º, IX) |
 
 *A foto de perfil é opcional e pode ser adicionada via upload ou sincronizada do Google (se usar login com Google).*
 
@@ -100,6 +101,12 @@ O Disciplinum exibe **anúncios do Google AdMob** para sustentar seu desenvolvim
 - **A qualquer momento:** Acesse [Configurações de Anúncios do Google](https://adssettings.google.com) para ajustar suas preferências.
 
 > 💡 **Nota:** Optar por anúncios não personalizados **não remove os anúncios**, apenas os torna menos relevantes.
+
+### 🎛️ Controle de Dados de Uso e Erros
+Você pode **ativar ou desativar a coleta de dados de uso e relatórios de erros** a qualquer momento:
+- **No aplicativo:** Acesse **Configurações > Análise de uso e erros** e desative o toggle.
+- **Efeito:** Ao desativar, **Firebase Analytics e Firebase Crashlytics** pararão de coletar dados.
+- **Impacto:** Isso pode limitar nossas melhorias no app, mas não afeta o funcionamento básico.
 
 ---
 ## 💳 8. Compras no Aplicativo (In-App Purchases)
