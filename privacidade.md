@@ -15,9 +15,9 @@ Coletamos **apenas os dados necessários** para o funcionamento do aplicativo e 
  | **Dados de Identificação** | Nome, E-mail, **Foto de Perfil (opcional, via Google Auth ou upload manual)** | Criação de conta, login e personalização do perfil | Execução de Contrato (Art. 7º, V) |
  | **Dados de Uso** | Hábitos criados, registros de "check-ins", medalhas, tempos de uso | Funcionalidade principal do app (monitoramento de disciplina) | Execução de Contrato (Art. 7º, V) |
  | **Identificadores de Dispositivo** | ID de Publicidade (AdID), Modelo do aparelho, Versão do Android | Exibição de anúncios (apenas com consentimento explícito) | **Consentimento (Art. 7º, I)** |
- | **Logs de Falhas** | Relatórios de erros (via Firebase Crashlytics) | Correção de bugs e estabilidade do app | Legítimo Interesse (Art. 7º, IX) |
+ | **Logs de Falhas** | Relatórios de erros (via Firebase Crashlytics) | Correção de bugs e estabilidade do app | Consentimento (Art. 7º, I) |
  | **Dados de Sincronização** | Configurações do app, progresso dos hábitos | Sincronização entre dispositivos | Execução de Contrato (Art. 7º, V) |
-   **Dados de Análise** | Eventos de uso (telas acessadas, interações), relatórios de erros | Melhoria do app e correção de bugs | **Consentimento (Art. 7º, I)** ou Legítimo Interesse (Art. 7º, IX) |
+   **Dados de Análise** | Eventos de uso (telas acessadas, interações), relatórios de erros | Melhoria do app e correção de bugs | **Consentimento (Art. 7º, I)** |
 
 *A foto de perfil é opcional e pode ser adicionada via upload ou sincronizada do Google (se usar login com Google).*
 
