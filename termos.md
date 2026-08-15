@@ -53,6 +53,11 @@ O aplicativo exibe **anúncios fornecidos por terceiros (Google AdMob)** para su
 
 **Reservamo-nos o direito de alterar o modelo de monetização** no futuro, incluindo a adição de compras no aplicativo (In-App Purchases) ou assinaturas, mediante atualização destes termos.
 
+### 🔒 Privacidade e Controle de Dados
+Você tem controle sobre seus dados. Para mais detalhes, consulte nossa [Política de Privacidade](https://github.com/BatataNativs/disciplinum-legal/blob/main/privacidade.md).
+- **Anúncios personalizados:** Gerencie nas configurações do app ou em [Configurações de Anúncios do Google](https://adssettings.google.com).
+- **Coleta de dados de uso:** Ative/desative em **Configurações > Análise de uso e erros**.
+
 ---
 ## 8. Suspensão e Encerramento de Contas
 Reservamos o direito de **suspender ou encerrar contas** que violem estes termos, com ou sem aviso prévio. Em casos de violações graves (como fraude ou atividades ilegais), o encerramento será imediato.
